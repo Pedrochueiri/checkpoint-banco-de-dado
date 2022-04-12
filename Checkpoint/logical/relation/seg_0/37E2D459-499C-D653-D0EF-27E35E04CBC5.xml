@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PACI_PLANOv2" directorySegmentName="seg_0" id="37E2D459-499C-D653-D0EF-27E35E04CBC5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:32:20 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<sourcePk>67ECC615-2518-3804-8337-97775AE5E4BF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B710AE0A-0CA0-27A1-D9ED-D35499F3F3FF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D9DFA77B-150F-D3EB-AA75-469CF43E0FFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

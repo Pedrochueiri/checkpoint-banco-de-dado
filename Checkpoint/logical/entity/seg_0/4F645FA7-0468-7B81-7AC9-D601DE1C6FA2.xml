@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F645FA7-0468-7B81-7AC9-D601DE1C6FA2" name="T_RHSTU_TELEFONE_PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:01:19 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TELEFONE" id="5A1032C1-73FB-35C9-D99B-7805F40B63DF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:01:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária dos telefones do paciente. Esse conteúdo será preenchido automaticamente pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="5AB893B8-1849-2A5F-0967-859CD3CBA707">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:27:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero ID do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas id do paciente válido.]]></commentInRDBMS>
+<generatorID>BD500495-5EF5-7C46-E054-DBAAB5C02FE5</generatorID>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<referedAttribute>934B6AD8-99A5-0E96-1E3C-6EBAB97587EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="8C6CF41C-CA9E-60B1-80E1-01A85449CE7C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:01:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero DDD do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas DDD do paciente válido.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="D5C06E72-A083-960C-4514-A3E79057E9AF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:02:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero teledone  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas telefone do paciente válido.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_TELEFONE" id="4E6796D3-F99B-9D43-A87C-BE8652A10D8D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:02:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero tipo de telefone  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas tipo de telefone  do paciente válido.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_TELEFONE" id="CB6863FC-880A-28BC-E84F-BAB9F5BE42D6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:23:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero status do telefone do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado apenas status do telefone do paciente válido.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C525A6AB-A14E-43C2-7133-2DAA3C4603C4" name="T_RHSTU_TELEFONE_PACIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:01:51 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A1032C1-73FB-35C9-D99B-7805F40B63DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

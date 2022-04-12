@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="27DB9BC4-C469-404B-DF33-0DAABD3564F6" mainViewID="A195B226-B9B3-5F30-9DB0-67AF524B3488">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:47:02 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

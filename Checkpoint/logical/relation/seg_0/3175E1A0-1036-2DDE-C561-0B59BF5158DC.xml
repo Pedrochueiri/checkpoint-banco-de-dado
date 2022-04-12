@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PLANO_TELE" directorySegmentName="seg_0" id="3175E1A0-1036-2DDE-C561-0B59BF5158DC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:33:28 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<sourcePk>3C1A7DA6-373C-8F03-434B-5D10595D2C00</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9DFA77B-150F-D3EB-AA75-469CF43E0FFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EDC1FF62-5522-FF59-72DE-DD99CD959634</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

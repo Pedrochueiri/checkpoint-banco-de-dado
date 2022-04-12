@@ -1,0 +1,10 @@
+Nota: 9,0
+------------
+Tive que renomear o nome do arquivo *.dmd para funcionar.
+Isso não é uma boa prática.
+
+Temos uma questão aqui entre as entidades plano de saude paciente x paciente e plano saude paciente.
+Não deveríamos  ter esse relacionamento N x N nesse contexto.
+
+O modelo de dados ficou bom, parabéns!
+

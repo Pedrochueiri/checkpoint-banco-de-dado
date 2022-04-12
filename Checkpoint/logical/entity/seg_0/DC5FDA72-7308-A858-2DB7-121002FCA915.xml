@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC5FDA72-7308-A858-2DB7-121002FCA915" name="T_RHSTU_PACIENTE ">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:48:32 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="934B6AD8-99A5-0E96-1E3C-6EBAB97587EC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:49:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do paciente. Seu conteúdo será incremental e preenchido pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PACIENTE" id="9BE2A73C-700F-9A6A-5D9B-BE450998C8F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:50:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero nome do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NACIMENTO" id="597CDF49-6153-C30D-A51E-5E64F0DADBB6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:50:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero Data de nacimento  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_SEXO" id="96C788FC-6FB5-21F3-F6F1-A76EE60DC17D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:51:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero o Sexo  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ESCOLARIDADE" id="F0FCA181-9208-8EC5-3319-091410381DD4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:52:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero a escolaridade  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ESTADO_CIVIL" id="F951AA3F-0537-46C9-E905-E09571DAFD37">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:52:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero o estado civil  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SANGUINEO " id="C84D017E-3620-C9D0-75E0-7CA4540579D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:53:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o tipo sanguinio do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ALTURA" id="AE502765-A17C-68EF-E79E-692B036B0B9E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero a altura  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PESO" id="AA625F51-1494-1D69-0547-82FAEB8F8EC2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:56:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero o peso  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="959761E0-8661-7B27-2F67-980A272CBB17">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:06:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero o cpf do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_RG" id="A9C10F4B-0B1D-3E2D-74F2-1D7E6E3565AC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:07:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero o rg  do paciente. Seu conteúdo é obrigatório e deverá ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1F4D1BA-17DA-C66A-BF3E-7B9FF9A10D76" name="T_RHSTU_PACIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 10:50:15 UTC</createdTime>
+<ownerDesignName>Checkpoint</ownerDesignName>
+<engineerTo>
+<item key="D164EB96-26DB-0146-9CA1-A055C2C9263D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>934B6AD8-99A5-0E96-1E3C-6EBAB97587EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
